@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB12106F18A58D4000558541 /* mysql.png in Resources */ = {isa = PBXBuildFile; fileRef = EB12106C18A58D4000558541 /* mysql.png */; };
+		EB12107018A58D4000558541 /* nginx.png in Resources */ = {isa = PBXBuildFile; fileRef = EB12106D18A58D4000558541 /* nginx.png */; };
+		EB12107118A58D4000558541 /* php.png in Resources */ = {isa = PBXBuildFile; fileRef = EB12106E18A58D4000558541 /* php.png */; };
+		EB661BA018A533CF00ABFF51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB661B9F18A533CF00ABFF51 /* Cocoa.framework */; };
+		EB661BAA18A533CF00ABFF51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB661BA818A533CF00ABFF51 /* InfoPlist.strings */; };
+		EB661BAC18A533CF00ABFF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB661BAB18A533CF00ABFF51 /* main.m */; };
+		EB661BB018A533CF00ABFF51 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB661BAE18A533CF00ABFF51 /* Credits.rtf */; };
+		EB661BB318A533CF00ABFF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB661BB218A533CF00ABFF51 /* AppDelegate.m */; };
+		EB661BB618A533CF00ABFF51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB661BB418A533CF00ABFF51 /* MainMenu.xib */; };
+		EB661BB818A533CF00ABFF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB661BB718A533CF00ABFF51 /* Images.xcassets */; };
+		EB661BBF18A533CF00ABFF51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB661BBE18A533CF00ABFF51 /* XCTest.framework */; };
+		EB661BC018A533CF00ABFF51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB661B9F18A533CF00ABFF51 /* Cocoa.framework */; };
+		EB661BC818A533CF00ABFF51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB661BC618A533CF00ABFF51 /* InfoPlist.strings */; };
+		EB661BCA18A533CF00ABFF51 /* NMF_PanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB661BC918A533CF00ABFF51 /* NMF_PanelTests.m */; };
+		EB661BD818A5350E00ABFF51 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB661BD618A5350E00ABFF51 /* PreferencesWindowController.xib */; };
+		EB661BD918A5350E00ABFF51 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB661BD718A5350E00ABFF51 /* PreferencesWindowController.m */; };
+		EB661BDD18A5355500ABFF51 /* PanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB661BDB18A5355500ABFF51 /* PanelViewController.m */; };
+		EB661BDE18A5355500ABFF51 /* PanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB661BDC18A5355500ABFF51 /* PanelViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB661BC118A533CF00ABFF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB661B9418A533CF00ABFF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB661B9B18A533CF00ABFF51;
+			remoteInfo = "NMF Panel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB12106C18A58D4000558541 /* mysql.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysql.png; sourceTree = "<group>"; };
+		EB12106D18A58D4000558541 /* nginx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nginx.png; sourceTree = "<group>"; };
+		EB12106E18A58D4000558541 /* php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = php.png; sourceTree = "<group>"; };
+		EB661B9C18A533CF00ABFF51 /* NMF Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NMF Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB661B9F18A533CF00ABFF51 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB661BA218A533CF00ABFF51 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB661BA318A533CF00ABFF51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB661BA418A533CF00ABFF51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB661BA718A533CF00ABFF51 /* NMF Panel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NMF Panel-Info.plist"; sourceTree = "<group>"; };
+		EB661BA918A533CF00ABFF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB661BAB18A533CF00ABFF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB661BAD18A533CF00ABFF51 /* NMF Panel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMF Panel-Prefix.pch"; sourceTree = "<group>"; };
+		EB661BAF18A533CF00ABFF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EB661BB118A533CF00ABFF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB661BB218A533CF00ABFF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB661BB518A533CF00ABFF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB661BB718A533CF00ABFF51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB661BBD18A533CF00ABFF51 /* NMF PanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NMF PanelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB661BBE18A533CF00ABFF51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB661BC518A533CF00ABFF51 /* NMF PanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NMF PanelTests-Info.plist"; sourceTree = "<group>"; };
+		EB661BC718A533CF00ABFF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB661BC918A533CF00ABFF51 /* NMF_PanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMF_PanelTests.m; sourceTree = "<group>"; };
+		EB661BD518A5350E00ABFF51 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		EB661BD618A5350E00ABFF51 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		EB661BD718A5350E00ABFF51 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		EB661BDA18A5355500ABFF51 /* PanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelViewController.h; sourceTree = "<group>"; };
+		EB661BDB18A5355500ABFF51 /* PanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelViewController.m; sourceTree = "<group>"; };
+		EB661BDC18A5355500ABFF51 /* PanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB661B9918A533CF00ABFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB661BA018A533CF00ABFF51 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB661BBA18A533CF00ABFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB661BC018A533CF00ABFF51 /* Cocoa.framework in Frameworks */,
+				EB661BBF18A533CF00ABFF51 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB661B9318A533CF00ABFF51 = {
+			isa = PBXGroup;
+			children = (
+				EB661B9E18A533CF00ABFF51 /* Frameworks */,
+				EB661BD418A534AB00ABFF51 /* General */,
+				EB661B9D18A533CF00ABFF51 /* Products */,
+				EB661BC318A533CF00ABFF51 /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		EB661B9D18A533CF00ABFF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB661B9C18A533CF00ABFF51 /* NMF Panel.app */,
+				EB661BBD18A533CF00ABFF51 /* NMF PanelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB661B9E18A533CF00ABFF51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB661B9F18A533CF00ABFF51 /* Cocoa.framework */,
+				EB661BBE18A533CF00ABFF51 /* XCTest.framework */,
+				EB661BA118A533CF00ABFF51 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB661BA118A533CF00ABFF51 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BA218A533CF00ABFF51 /* AppKit.framework */,
+				EB661BA318A533CF00ABFF51 /* CoreData.framework */,
+				EB661BA418A533CF00ABFF51 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB661BA518A533CF00ABFF51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BB718A533CF00ABFF51 /* Images.xcassets */,
+				EB661BA618A533CF00ABFF51 /* Supporting Files */,
+			);
+			name = Resources;
+			path = "NMF Panel";
+			sourceTree = "<group>";
+		};
+		EB661BA618A533CF00ABFF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BAE18A533CF00ABFF51 /* Credits.rtf */,
+				EB661BA818A533CF00ABFF51 /* InfoPlist.strings */,
+				EB661BAB18A533CF00ABFF51 /* main.m */,
+				EB12106C18A58D4000558541 /* mysql.png */,
+				EB12106D18A58D4000558541 /* nginx.png */,
+				EB661BA718A533CF00ABFF51 /* NMF Panel-Info.plist */,
+				EB661BAD18A533CF00ABFF51 /* NMF Panel-Prefix.pch */,
+				EB12106E18A58D4000558541 /* php.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB661BC318A533CF00ABFF51 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BC918A533CF00ABFF51 /* NMF_PanelTests.m */,
+				EB661BC418A533CF00ABFF51 /* Supporting Files */,
+			);
+			name = Tests;
+			path = "NMF PanelTests";
+			sourceTree = "<group>";
+		};
+		EB661BC418A533CF00ABFF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BC518A533CF00ABFF51 /* NMF PanelTests-Info.plist */,
+				EB661BC618A533CF00ABFF51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB661BD318A5341B00ABFF51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BB118A533CF00ABFF51 /* AppDelegate.h */,
+				EB661BB218A533CF00ABFF51 /* AppDelegate.m */,
+				EB661BB418A533CF00ABFF51 /* MainMenu.xib */,
+				EB661BDA18A5355500ABFF51 /* PanelViewController.h */,
+				EB661BDB18A5355500ABFF51 /* PanelViewController.m */,
+				EB661BDC18A5355500ABFF51 /* PanelViewController.xib */,
+				EB661BD518A5350E00ABFF51 /* PreferencesWindowController.h */,
+				EB661BD718A5350E00ABFF51 /* PreferencesWindowController.m */,
+				EB661BD618A5350E00ABFF51 /* PreferencesWindowController.xib */,
+			);
+			name = Classes;
+			path = "NMF Panel";
+			sourceTree = "<group>";
+		};
+		EB661BD418A534AB00ABFF51 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				EB661BD318A5341B00ABFF51 /* Classes */,
+				EB661BA518A533CF00ABFF51 /* Resources */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB661B9B18A533CF00ABFF51 /* NMF Panel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB661BCD18A533CF00ABFF51 /* Build configuration list for PBXNativeTarget "NMF Panel" */;
+			buildPhases = (
+				EB661B9818A533CF00ABFF51 /* Sources */,
+				EB661B9918A533CF00ABFF51 /* Frameworks */,
+				EB661B9A18A533CF00ABFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NMF Panel";
+			productName = "NMF Panel";
+			productReference = EB661B9C18A533CF00ABFF51 /* NMF Panel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB661BBC18A533CF00ABFF51 /* NMF PanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB661BD018A533CF00ABFF51 /* Build configuration list for PBXNativeTarget "NMF PanelTests" */;
+			buildPhases = (
+				EB661BB918A533CF00ABFF51 /* Sources */,
+				EB661BBA18A533CF00ABFF51 /* Frameworks */,
+				EB661BBB18A533CF00ABFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB661BC218A533CF00ABFF51 /* PBXTargetDependency */,
+			);
+			name = "NMF PanelTests";
+			productName = "NMF PanelTests";
+			productReference = EB661BBD18A533CF00ABFF51 /* NMF PanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB661B9418A533CF00ABFF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Estúdio Trilha";
+				TargetAttributes = {
+					EB661BBC18A533CF00ABFF51 = {
+						TestTargetID = EB661B9B18A533CF00ABFF51;
+					};
+				};
+			};
+			buildConfigurationList = EB661B9718A533CF00ABFF51 /* Build configuration list for PBXProject "NMF Panel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB661B9318A533CF00ABFF51;
+			productRefGroup = EB661B9D18A533CF00ABFF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB661B9B18A533CF00ABFF51 /* NMF Panel */,
+				EB661BBC18A533CF00ABFF51 /* NMF PanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB661B9A18A533CF00ABFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB12107018A58D4000558541 /* nginx.png in Resources */,
+				EB661BAA18A533CF00ABFF51 /* InfoPlist.strings in Resources */,
+				EB661BB818A533CF00ABFF51 /* Images.xcassets in Resources */,
+				EB661BB018A533CF00ABFF51 /* Credits.rtf in Resources */,
+				EB661BD818A5350E00ABFF51 /* PreferencesWindowController.xib in Resources */,
+				EB661BB618A533CF00ABFF51 /* MainMenu.xib in Resources */,
+				EB12107118A58D4000558541 /* php.png in Resources */,
+				EB12106F18A58D4000558541 /* mysql.png in Resources */,
+				EB661BDE18A5355500ABFF51 /* PanelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB661BBB18A533CF00ABFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB661BC818A533CF00ABFF51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB661B9818A533CF00ABFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB661BB318A533CF00ABFF51 /* AppDelegate.m in Sources */,
+				EB661BD918A5350E00ABFF51 /* PreferencesWindowController.m in Sources */,
+				EB661BAC18A533CF00ABFF51 /* main.m in Sources */,
+				EB661BDD18A5355500ABFF51 /* PanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB661BB918A533CF00ABFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB661BCA18A533CF00ABFF51 /* NMF_PanelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB661BC218A533CF00ABFF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB661B9B18A533CF00ABFF51 /* NMF Panel */;
+			targetProxy = EB661BC118A533CF00ABFF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB661BA818A533CF00ABFF51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB661BA918A533CF00ABFF51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB661BAE18A533CF00ABFF51 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB661BAF18A533CF00ABFF51 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EB661BB418A533CF00ABFF51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB661BB518A533CF00ABFF51 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EB661BC618A533CF00ABFF51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB661BC718A533CF00ABFF51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB661BCB18A533CF00ABFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB661BCC18A533CF00ABFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB661BCE18A533CF00ABFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMF Panel/NMF Panel-Prefix.pch";
+				INFOPLIST_FILE = "NMF Panel/NMF Panel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB661BCF18A533CF00ABFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMF Panel/NMF Panel-Prefix.pch";
+				INFOPLIST_FILE = "NMF Panel/NMF Panel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB661BD118A533CF00ABFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NMF Panel.app/Contents/MacOS/NMF Panel";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMF Panel/NMF Panel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NMF PanelTests/NMF PanelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB661BD218A533CF00ABFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NMF Panel.app/Contents/MacOS/NMF Panel";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NMF Panel/NMF Panel-Prefix.pch";
+				INFOPLIST_FILE = "NMF PanelTests/NMF PanelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB661B9718A533CF00ABFF51 /* Build configuration list for PBXProject "NMF Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB661BCB18A533CF00ABFF51 /* Debug */,
+				EB661BCC18A533CF00ABFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB661BCD18A533CF00ABFF51 /* Build configuration list for PBXNativeTarget "NMF Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB661BCE18A533CF00ABFF51 /* Debug */,
+				EB661BCF18A533CF00ABFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB661BD018A533CF00ABFF51 /* Build configuration list for PBXNativeTarget "NMF PanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB661BD118A533CF00ABFF51 /* Debug */,
+				EB661BD218A533CF00ABFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB661B9418A533CF00ABFF51 /* Project object */;
+}
